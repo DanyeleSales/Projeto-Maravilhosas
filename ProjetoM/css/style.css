@@ -1,0 +1,483 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+nav{
+    display:flex;
+    background-color:#674582;
+    
+    height: 85px;
+    margin-top: -5px;
+    margin-left: -6px;
+    }
+
+.nav_icons{
+    display: none; 
+}
+.lista_nav{
+    display: none;
+}
+.lista_nav{
+    list-style:none;
+    justify-content: space-around;
+}
+
+.img_nav{
+    width: 300px;
+}
+.img_menunav{
+    margin-left: 569px;
+    margin-top: 19px;
+    width: 52px;
+    height: 47px;
+    background-color: white;
+}
+
+header{
+    background-image: url(../img/bg-banner-claro.png);
+    position: relative;
+    background-size: cover;
+    height: 38%;
+    background-repeat: no-repeat;
+}
+
+.header.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.header_titulo{   
+    position: absolute;
+    font-size: 54px;
+    width: 76%;
+    color: white;
+    left: 118px;
+    bottom: 228px;
+}
+.header_subtitulo{
+    position: absolute;
+    font-size: 27px;
+    width: 74%;
+    color: white;
+    left: 128px;
+    bottom: 123px;
+    text-align: center;
+}
+.header-personalidade{
+     
+}
+.btn_header{
+    position: absolute;
+    background-color: #C083B9;
+    font-size: 36px;
+    width: 47%;
+    color: white;
+    left: 24%;
+    bottom: 61px;    
+    text-align: center;
+    border-radius: 5px;
+}
+
+h6{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458A;
+    font-size: 37px;
+    margin-top: 37px;
+    text-align: center;
+}
+
+.imagem_integrantes {
+    width: 300px;    
+    border-radius: 30px;
+  
+}
+.imagem_integrantes img{
+    width: 300px;
+    background-color:#674582;
+    border-radius: 30px;  
+}
+
+/* PERFIL JOANNA */
+
+.header_joanna{
+    background-image: url(../img/amy-banner.jpg);
+    position: relative;
+    background-size: cover;
+    height: 58vh;
+    display: flex;
+    justify-content: center;
+}
+.header_titulojoanna{
+     display: none;
+    font-weight: bold;
+    position: absolute;
+    font-size: 76px;
+    color: #FFFFFF;
+    bottom: 49px;
+    background-color: rgba(141, 31, 188, 0.3);
+    text-transform: uppercase;
+}
+.conteudo_joanna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo_joanna{
+    text-align: center;
+}
+.perfil_joanna {
+    width: 300px;
+}
+
+.titulo_joanna,.titulo_historia-Joanna{
+    font-weight: bold;
+    color: #63458A;
+    text-align: center; 
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.citacao_joanna {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #63458A;
+    border: 3px solid #E5E5E5;
+}
+
+p{
+    color:#674582;
+}
+.resumo_amy{
+    margin: 10px;
+    padding: 10px;
+    width: 878px;
+}
+
+.historia_joanna{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.historia_joanna img{
+    width: 769px;
+    margin: 30px;
+
+}
+/* PERFIL JOANNA */
+
+footer{
+    background-color: #323534;
+    display: flex;
+}
+
+.titulosfooter{
+    color:white;
+    font-size: 24px;
+}
+.footerfacebook{
+    display: flex;
+    background-color: #323534;
+    justify-content: center;
+    color:white;
+}
+
+.footerfacebook img{
+    width: 30px;
+}
+
+.footer_titulos{
+    margin-top: 30px;
+    justify-content: center;
+    /* border: 20px solid; */
+    text-align: center;
+}
+
+.conteudo_integrantes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footersubtitulos{
+
+    text-align: center;
+    color: purple;
+}
+@media ( min-width: 768px){
+    
+    .footerlogo img{
+        width: 32vh;
+        margin: 83px;
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_titulos{
+        display: flex;
+        width: 25vh;
+        font-size: 18px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footerfacebook{
+        width: 32vh;
+    }
+    .titulosfooter{
+        font-size: 18px;
+    }
+   
+    .footerrodape {
+        background-color: grey;
+   }
+   .footertituloss{
+    font-size: 18px;
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    background-color: #323534; 
+}
+}
+
+@media ( min-width: 1024px){
+   header{
+    height: 66%;
+    background-position-y: -96px;
+
+   
+   }
+
+    .header_titulo{
+        font-size: 36px;
+        width: 45%;
+        font-style: bold;
+        text-transform: uppercase;
+        font-weight: 999;
+        left: 311px;
+        bottom: 165px;
+    }
+ 
+    
+    nav{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+     }
+         .img_menunav{
+         display: none;
+
+         }
+
+     .nav_icons{
+     display: inline;
+  
+      }
+
+
+    .lista_nav{
+        display: inline-block;
+        
+    }
+
+    .lista_nav a{
+        color: #FFFFFF;
+        text-decoration-line: none;
+        font-size: 18px;
+
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 413px;
+        text-transform: uppercase;
+
+    }
+    
+    .header_subtitulo{
+        font-size: 23px;
+        left: 293px;
+        bottom: 98px;
+        width: 48%;
+    }
+
+    .btn_header, a{
+        width: 25%;
+        left: 26%;
+        bottom: 23px;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+        
+    }
+
+
+    .ctn{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: unset;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .imagem_integrantes{
+        width: 400px;
+    }
+
+    .imagem_integrantes img {
+        width:100px;
+        flex-direction: column;
+    }
+
+    /* 
+    RESOLUÇÃO PÁGINA JOANNA */
+
+
+    .header_joanna{
+        height: 89%;
+    }
+
+    .conteudo_joanna{
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .container{
+        width: 70%;
+    }
+
+    .titulo_joanna{
+        margin: 40px;
+    }
+    .alinhamento_joanna{
+        display: flex;
+    }
+
+    .perfil_joanna{
+        height: 40vh;
+
+    }
+
+    .resumo_amy{
+        font-size: 2.1vw;
+        margin-left: 40px;
+    }
+
+
+
+    .citacao_navegador{
+    display: flex;
+
+    }
+
+
+    .citacao_joanna{
+        border: 3px solid #E5E5E5;
+        margin-top: 45px;
+        margin-left: 0;
+    }
+    .historia_joanna{
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 0px;
+    }
+
+    .historia_joanna img {
+        padding: 0px;    
+        margin-left: 0px;
+    }
+
+    p{
+        padding: 5px;
+        font-size: 2.1vw;
+    }
+    .titulo_historia-Joanna, p{
+
+        text-align: left;
+    }
+
+
+    /* ESPÇOA DA AUTORA */
+    .autora{
+        DISPLAY: FLEX;
+    justify-content: center;
+        background-color: #E4B7E5
+    }
+    .autora img{
+        width: 32vh;
+        height: 32vh;
+    }
+
+    .sobre_autora{
+        /* margin-left: 10PX; */
+    }
+    .sobre_autora p{
+        color: white;
+    
+    }
+    /*FOOTER*/
+    .footerlogo img{
+        width: 32vh;
+        margin: 83px;
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_titulos{
+        display: flex;
+        width: 25vh;
+        font-size: 18px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footerfacebook{
+        width: 32vh;
+    }
+    .titulosfooter{
+        font-size: 18px;
+    }
+   
+    .footerrodape {
+        background-color: grey;
+   }
+   .footertituloss{
+    font-size: 18px;
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    background-color: #323534;
+       
+        
+    }
+}
+
+
+
+
